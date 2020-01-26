@@ -18,6 +18,7 @@ namespace Short_string
             {
                 output = output + splitStrings[i] + " ";
             }
+
             Console.WriteLine(output);
 
             Console.ReadKey();
@@ -32,5 +33,18 @@ namespace Short_string
             }
             return output;
         }
+        
+    }
+    public class Employee : Main
+    {
+        public void Show12()
+        {
+            
+        }
+    }
+    public interface Main
+    {
+        void Show12();
+
     }
 }
